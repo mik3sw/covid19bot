@@ -1,6 +1,6 @@
 # covid19bot
 
-**Link**: [@covid19italtreportbot](t.me/covid19italyreportbot)
+**Link**: [covid19italtreportbot](t.me/covid19italyreportbot)
 
 **[it]** Bot Telegram che fornisce dettagliati aggiornamenti giornalieri riguardo la situazione covid-19 in Italia (contagi, morti, guariti, ...)
 
