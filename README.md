@@ -42,6 +42,7 @@ QuickStart guide to run the bot.
 3. Edit <code>bot/config.py</code> with your settings;
 4. (Optional) Customize commands output by editing <code>strings.ini</code>;
 5. Run the bot with <code>python3 bot.py</code>
+6. NOTE: Windows does not support emoticon and (ò, à, è) characters in strings.ini, you have to rewrite it!
 
 
 
