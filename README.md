@@ -30,14 +30,23 @@
 - [/addgroup]() register your group id in database (admin-only)
 - [/delgroup]() delete your group id in database (admin-only)
 
+- [/covid]() and [/uncovid]() to start/stop the scheduler 
+- [/vaccines]() and [/unvaccines]() to start/stop the scheduler 
+
+- [/sys]() get server information like CPU usage etc.
+    - I copied this feature from @Squirrel-Network [HERE](https://github.com/Squirrel-Network/nebula8/blob/master/core/commands/owner/server_info.py)
+
+
 ## How to Run
 
 QuickStart guide to run the bot.
+DISCLAIMER: I tested this bot only on macOS and Linux
 
 1. Install dependencies
-<code> pip install python-telegram-bot</code>,
-<code>pip install requests</code>,
-<code>pip install db-sqlite3</code>;
+    - <code> pip install python-telegram-bot</code>
+    - <code>pip install requests</code>
+    - <code>pip install db-sqlite3</code>
+    - <code>pip install psutil</code>
 2. Create database by running <code>tests/sql_script_create.py</code> and move the new created <code>Groups.db</code> into bot folder;
 3. Edit <code>bot/config.py</code> with your settings;
 4. (Optional) Customize commands output by editing <code>strings.ini</code>;

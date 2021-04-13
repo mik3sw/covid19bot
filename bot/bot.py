@@ -39,6 +39,10 @@ def main():
     dp.add_handler(CommandHandler("vaccines", plugins.vaccines.set_timer,pass_args=False,pass_job_queue=True,pass_chat_data=True))
     dp.add_handler(CommandHandler("unvaccines", plugins.vaccines.unset, pass_chat_data=True))
     
+    # Owner commands
+    # ===============================================
+    dp.add_handler(CommandHandler("sys", commands.admin.system_info.init))
+
     # Admin commands
     # ===============================================
     dp.add_handler(CommandHandler("addgroup", commands.admin.addgroup.init))
