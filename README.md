@@ -34,7 +34,7 @@
 - [/vaccines]() and [/unvaccines]() to start/stop the scheduler 
 
 - [/sys]() get server information like CPU usage etc.
-    - I copied this feature from @Squirrel-Network [HERE](https://github.com/Squirrel-Network/nebula8/blob/master/core/commands/owner/server_info.py)
+    - I copied this feature from [@Squirrel-Network](https://github.com/Squirrel-Network) [HERE](https://github.com/Squirrel-Network/nebula8/blob/master/core/commands/owner/server_info.py)
 
 
 ## How to Run
